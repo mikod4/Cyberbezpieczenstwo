@@ -1,0 +1,10 @@
+services:
+  lab:
+    build: .
+    image: rsa-lab
+    working_dir: /Lab_4
+    volumes:
+      - .:/Lab_4
+    stdin_open: true
+    tty: true
+    command: bash

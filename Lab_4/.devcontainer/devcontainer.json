@@ -1,0 +1,16 @@
+{
+  "name": "rsa-lab",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "lab",
+  "workspaceFolder": "/Lab_4",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  }
+}

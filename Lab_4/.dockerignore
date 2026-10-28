@@ -1,0 +1,6 @@
+wyniki/
+__pycache__/
+*.pyc
+.git/
+.venv/
+.devcontainer/
